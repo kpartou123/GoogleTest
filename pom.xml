@@ -5,7 +5,7 @@
      <id>github</id>
      <name>bddgoogle2</name>
      <url>https://github.com/kpartou123/bddgoogle2.git</url>
-   </repository>
+       </repository>
 </distributionManagement>
 
     <modelVersion>4.0.0</modelVersion>

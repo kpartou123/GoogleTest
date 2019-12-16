@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: test.com.BddGoogleTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 8.669 sec <<< FAILURE!
+Then user is on SearchRsults Page(Scenario: Google Search Scenario)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<basketball []- Google Search> but was:<basketball [legends ]- Google Search>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at test.com.GoogleTest.user_is_on_SearchRsults_Page(GoogleTest.java:71)
+	at ?.Then user is on SearchRsults Page(google.feature:7)
+Scenario: Google Search Scenario  Time elapsed: 0.002 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<basketball []- Google Search> but was:<basketball [legends ]- Google Search>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at test.com.GoogleTest.user_is_on_SearchRsults_Page(GoogleTest.java:71)
+	at ?.Then user is on SearchRsults Page(google.feature:7)
